@@ -1,0 +1,209 @@
+<!-- https://twx00.github.io/-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header-nav">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#intro-text">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#project">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!----------home---------->
+            <section class="header">
+                <div class="header-content">
+                    <div class="header-text">
+                        <h2>Hi, I'm <span class="highlight">Tay Wen Xuan</span></h2>
+                        <p>Aspiring Frontend Developer passionate about building modern and responsive web apps.</p>
+                    </div>
+                    <div class="header-img">
+                        <img src="pic.png" alt="Illustration">
+                    </div>
+                </div>
+            </section>
+
+
+            <!----------about---------->
+            <div id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="about-col-1">
+                            <div class="profile-box">
+                                <img src="me.jpg" alt="foto">
+                            </div>
+                        </div>
+                        <div class="about-col-2">
+                            <h2 class="sub-title">About Me</h2>
+                            <p>I'm a recent graduate with a Bachelor's degree in Computer Systems & Networking,
+                                currently focused on front-end development. During my internship, I gained hands-on
+                                experience developing web-based tools and optimizing databases, which strengthened
+                                both
+                                my technical and problem-solving skills. I’m passionate about building responsive,
+                                user-friendly interfaces and enjoy turning complex ideas into clean, functional
+                                designs.
+                                I'm eager to keep learning, growing, and contributing as a developer.
+
+                            </p>
+
+                            <div class="tab-wrapper">
+                                <div class="tab-titles">
+                                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                                </div>
+
+                                <!----------skills---------->
+                                <div class="tab-contents active-tab" id="skills">
+                                    <ul>
+                                        <li>HTML & CSS </li>
+                                        <li>JavaScript</li>
+                                        <li>Figma</li>
+                                        <li>Teamwork</li>
+                                        <li>Communication</li>
+                                        <li>Problem Solving</li>
+                                    </ul>
+                                </div>
+
+                                <!----------Experience---------->
+                                <div class="tab-contents" id="experience">
+                                    <ul>
+                                        <li>
+                                            <strong>IT Intern</strong> - Top Cemerlang Wealth Advisory (Apr-Aug
+                                            2024)<br>
+                                            Built web-based financial tools, optimized MYSQL queries and performed
+                                            testing
+                                            using
+                                            real customer data
+                                        </li>
+                                        <li><strong>Clerk</strong> - Crystal Florist & Gift (Jul-Oct 2022)<br>
+                                            Assited customers, processed payments and managed inventory</li>
+                                    </ul>
+                                </div>
+
+                                <!----------education---------->
+                                <div class="tab-contents" id="education">
+                                    <ul>
+                                        <li>
+                                            <strong>Bachelor of Computer Science System & Networking</strong> - UMP
+                                            (2020-2024)<br>
+                                        </li>
+                                        <li>
+                                            <strong>STPM</strong> - SMK'DATO SETH (2018-2019)
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!----------project---------->
+            <div id="project">
+                <div class="container">
+                    <h2 class="sub-title">My Projects</h2>
+                </div>
+
+                <!----------project 1---------->
+                <div class="project-gallery">
+                    <div class="project-card">
+                        <img src="project1.jpg" alt="Project 1">
+                        <div class="overlay-text">
+                            <h3>Financial Analysis Tool</h3>
+                            <p>A responsive financial health check tool to analyze the current
+                                financial situation, identifies areas for improvement,<br>
+                                and helps you set achievable goals.
+                                <hr>
+                                <strong>Tech Used:</strong> HTML,CSS, JavaScript, Figma
+                            </p>
+                        </div>
+                    </div>
+
+                    <!----------project 2---------->
+                    <div class="project-card">
+                        <img src="project2.jpg" alt="Project 2">
+                        <div class="overlay-text">
+                            <h3>Online Printing Service</h3>
+                            <p>A web-based application which aim to manage the online printing services. The
+                                potential
+                                users
+                                for
+                                this application system are administrator, officer from Koperasi UMP, registered
+                                user,<br>
+                                general user and rider.
+                                <hr>
+                                <strong>Tech Used:</strong> HTML,CSS, JavaScript, MySQL, Figma
+                            </p>
+                        </div>
+                    </div>
+
+                    <!----------project 3---------->
+                    <div class="project-card">
+                        <img src="project3.jpg" alt="Project 3">
+                        <div class="overlay-text">
+                            <h3>Features Classification For Brute Force
+                                Attack Using Machine Learning</h3>
+                            <p>Machine learning project to classify and detect brute force attacks.
+                                <hr>
+                                <strong>Tech Used:</strong> Wireshark, Matlab
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!----------contact---------->
+            <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-col">
+                            <h2 class="sub-title">Contact Me</h2>
+                            <p><i class="fa fa-envelope" style="font-size:24px;"></i> wenxuan2604@gmail.com</p>
+                            <p><i class="fa fa-phone" style="font-size:24px;"></i> 010-8182246</p>
+                            <p>
+                                <a href="https://www.linkedin.com/in/tay-wen-xuan" target="_blank">
+                                    <i class="fa fa-linkedin-square" style="font-size:24px;"> LinkedIn</i>
+                            </p>
+                            <a href="C:\Users\User\Documents\portfolio\resume.pdf" class="btn btn2">Download CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script>
+                var tablinks = document.getElementsByClassName("tab-links");
+                var tabcontents = document.getElementsByClassName("tab-contents");
+
+                function opentab(tabname) {
+                    for (tablink of tablinks) {
+                        tablink.classList.remove("active-link");
+                    }
+                    for (tabcontent of tabcontents) {
+                        tabcontent.classList.remove("active-tab");
+                    }
+                    event.currentTarget.classList.add("active-link");
+                    document.getElementById(tabname).classList.add("active-tab");
+                }
+            </script>
+
+</body>
+
+<footer>
+    <p>&copy; 2025 Tay Wen Xuan. All right reserved.</p>
+</footer>
+
+</html>
